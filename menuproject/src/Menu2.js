@@ -9,23 +9,26 @@ import Typography from '@mui/material/Typography';
 
 const Menu = () => {
   return (
-      <div className="section-center">
         <List disablePadding>
-        <div className="menu-item">
+        <div className='section-center'>
         {menu.map((menu) => (
-          <ListItem key={menu.name} sx={{ py: 1, px: 0 }}>
+          <ListItem key={menu.name} sx={{ py: 1, px: 1 }}>
+            <div className="menu-item">
             <div>
-              <img className="photo"src={menu.img} alt ='' />
+              <img className="photo" src={menu.img} alt ='' />
             </div>
             <div>
-            <ListItemText primary={menu.title} secondary={menu.price}/>
+              <h4>
+            <ListItemText className = "item-info" primary={menu.title}/> 
+            </h4>
+            <ListItemText className = "price" secondary={menu.price}/>
             <Typography variant="body2">{menu.desc}</Typography>
+            </div>
             </div>
           </ListItem>
           ))}
           </div>
         </List>
-    </div>
   );
 };
 

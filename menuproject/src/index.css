@@ -155,8 +155,7 @@ Menu
   height: 0.25rem;
   background: var(--clr-gold);
   top: 40px;
-  /* left: 600px; */
-  left: auto;
+  left: 600px;
 }
 .btn-container {
   margin-bottom: 4rem;
@@ -187,11 +186,13 @@ Menu
   display: grid;
   gap: 3rem 2rem;
   justify-items: center;
+  border: 1px solid rgb(233, 16, 16);
 }
 .menu-item {
   display: grid;
   gap: 1rem 2rem;
   max-width: 25rem;
+  border: 1px solid #f2f2;
 }
 .photo {
   object-fit: cover;
@@ -236,4 +237,9 @@ Menu
   .photo {
     height: 150px;
   }
+}
+
+.centerthis {
+  margin-left: auto;
+  margin-right: auto;
 }
