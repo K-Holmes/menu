@@ -25,7 +25,9 @@ const Menu = () => {
             <h4 className='price'>$15.99</h4>
             </header>
           <Divider/>
-          <p className ="item-text"><small>I'm baby woke mlkshk wolf bitters live-edge blue bottle, hammock freegan copper mug whatever cold-pressed</small></p>
+          <p className ="item-text"><small>I'm baby woke mlkshk 
+            wolf bitters live-edge blue bottle, hammock freegan 
+            copper mug whatever cold-pressed</small></p>
         </div>
       </div>
 
@@ -37,10 +39,13 @@ const Menu = () => {
         <div>
           <header className="item-info">
             <h4 className ="item-info">Diner Double</h4>
-            <h4 className='price'>$15.99</h4>
+            <h4 className='price'>$13.99</h4>
             </header>
           <Divider/>
-          <p className ="item-text"><small>vaporware iPhone mumblecore selvage raw denim slow-carb leggings gochujang helvetica man braid jianbing. Marfa thundercats</small></p>
+          <p className ="item-text"><small>vaporware iPhone 
+            mumblecore selvage raw denim slow-carb leggings 
+            gochujang helvetica man braid jianbing. Marfa 
+            thundercats</small></p>
         </div>
       </div>
 
@@ -52,10 +57,12 @@ const Menu = () => {
         <div>
           <header className="item-info">
             <h4 className ="item-info">Godzilla Milkshake</h4>
-            <h4 className='price'>$15.99</h4>
+            <h4 className='price'>$6.99</h4>
             </header>
           <Divider/>
-          <p className ="item-text"><small>ombucha chillwave fanny pack 3 wolf moon street art photo booth before they sold out organic viral.</small></p>
+          <p className ="item-text"><small>ombucha chillwave 
+            fanny pack 3 wolf moon street art photo booth before 
+            they sold out organic viral.</small></p>
         </div>
       </div>
 
@@ -67,10 +74,12 @@ const Menu = () => {
         <div>
           <header className="item-info">
             <h4 className ="item-info">Country Delight</h4>
-            <h4 className='price'>$15.99</h4>
+            <h4 className='price'>$20.99</h4>
             </header>
           <Divider/>
-          <p className ="item-text"><small>Heres the details on the dish</small></p>
+          <p className ="item-text"><small>Shabby chic keffiyeh 
+            neutra snackwave pork belly shoreditch. Prism austin 
+            mlkshk truffaut,</small></p>
         </div>
       </div>
 
@@ -82,10 +91,12 @@ const Menu = () => {
         <div>
           <header className="item-info">
             <h4 className ="item-info">Egg Attack</h4>
-            <h4 className='price'>$15.99</h4>
+            <h4 className='price'>$22.99</h4>
             </header>
           <Divider/>
-          <p className ="item-text"><small>Heres the details on the dish</small></p>
+          <p className ="item-text"><small>franzen vegan
+             pabst bicycle rights kickstarter pinterest
+              meditation farm-to-table 90's pop-up</small></p>
         </div>
       </div>
 
@@ -97,10 +108,12 @@ const Menu = () => {
         <div>
           <header className="item-info">
             <h4 className ="item-info">Oreo Dream</h4>
-            <h4 className='price'>$15.99</h4>
+            <h4 className='price'>$18.99</h4>
             </header>
           <Divider/>
-          <p className ="item-text"><small>Heres the details on the dish</small></p>
+          <p className ="item-text"><small>Portland 
+            chicharrones ethical edison bulb, palo santo 
+            craft beer chia heirloom iPhone everyday</small></p>
         </div>
       </div>
 
@@ -112,12 +125,13 @@ const Menu = () => {
         <div>
           <header className="item-info">
             <h4 className ="item-info">Bacon Overflow</h4>
-            <h4 className='price'>$15.99</h4>
+            <h4 className='price'>$8.99</h4>
             </header>
           <Divider/>
-          <p className ="item-text"><small>Portland chicharrones 
-            ethical edison bulb, palo santo craft beer chia heirloom 
-            iPhone everyday</small></p>
+          <p className ="item-text"><small>carry jianbing 
+            normcore freegan. Viral single-origin coffee 
+            live-edge, pork belly cloud bread iceland put 
+            a bird </small></p>
         </div>
       </div>
 
@@ -129,12 +143,12 @@ const Menu = () => {
         <div>
           <header className="item-info">
             <h4 className ="item-info">American Classic</h4>
-            <h4 className='price'>$15.99</h4>
+            <h4 className='price'>$12.99</h4>
             </header>
           <Divider/>
-          <p className ="item-text"><small>carry jianbing normcore freegan. 
-            Viral single-origin coffee live-edge, pork belly cloud bread 
-            iceland put a bird</small></p>
+          <p className ="item-text"><small>on it tumblr kickstarter 
+            thundercats migas everyday carry squid palo santo leggings. 
+            Food truck truffau</small></p>
         </div>
       </div>
 
@@ -146,7 +160,7 @@ const Menu = () => {
         <div>
           <header className="item-info">
             <h4 className ="item-info">Steak & Greens</h4>
-            <h4 className='price'>$15.99</h4>
+            <h4 className='price'>$16.99</h4>
             </header>
           <Divider/>
           <p className ="item-text"><small>on it tumblr kickstarter 
@@ -163,11 +177,12 @@ const Menu = () => {
         <div>
           <header className="item-info">
             <h4 className ="item-info">Quarantine Buddy</h4>
-            <h4 className='price'>$15.99</h4>
+            <h4 className='price'>$7.99</h4>
             </header>
-          <Divider/>
-          <p className ="item-text"><small>skateboard fam synth authentic semiotics. 
-            Live-edge lyft af, edison bulb yuccie crucifix microdosing.</small></p>
+          <Divider />
+          <p className ="item-text"><small>Pellentesque nec 
+            pulvinar purus. Aenean laoreet faucibus ornare. 
+            Donec fermentum nisi leo, </small></p>
         </div>
       </div>
 

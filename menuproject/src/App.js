@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Divider from '@mui/material/Divider';
 import Button from '@mui/material/Button';
-import Menu from './Menu';
+import Menu from './Menu2';
 import Categories from './Categories';
 import items from './data';
 import './index.css';
