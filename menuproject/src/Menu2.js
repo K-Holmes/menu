@@ -6,6 +6,7 @@ import ListItemText from '@mui/material/ListItemText';
 import menu from './data';
 import Grid from '@mui/material/Grid';
 import Typography from '@mui/material/Typography';
+import Stack from '@mui/material/Stack';
 
 const Menu = () => {
   return (
@@ -18,10 +19,12 @@ const Menu = () => {
               <img className="photo" src={menu.img} alt ='' />
             </div>
             <div>
-              <h4>
+            <Stack direction= "row" justifyContent="space-between">
+            <h4 className = "item-info">
             <ListItemText className = "item-info" primary={menu.title}/> 
             </h4>
             <ListItemText className = "price" secondary={menu.price}/>
+            </Stack>
             <Typography variant="body2">{menu.desc}</Typography>
             </div>
             </div>

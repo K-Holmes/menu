@@ -1,4 +1,5 @@
 import { Divider } from '@mui/material';
+import Stack from '@mui/material/Stack';
 import React from 'react';
 import pancake from './images/pancake.jpeg';
 import breakfast from './images/breakfast.jpeg'
@@ -21,8 +22,10 @@ const Menu = () => {
         </div>
         <div>
           <header className="item-info">
+            <Stack direction= "row" justifyContent="space-between">
             <h4 className ="item-info">Buttermilk Pancakes</h4>
             <h4 className='price'>$15.99</h4>
+            </Stack>
             </header>
           <Divider/>
           <p className ="item-text"><small>I'm baby woke mlkshk 
@@ -38,8 +41,10 @@ const Menu = () => {
         </div>
         <div>
           <header className="item-info">
+          <Stack direction= "row" justifyContent="space-between">
             <h4 className ="item-info">Diner Double</h4>
             <h4 className='price'>$13.99</h4>
+            </Stack>
             </header>
           <Divider/>
           <p className ="item-text"><small>vaporware iPhone 
@@ -56,8 +61,10 @@ const Menu = () => {
         </div>
         <div>
           <header className="item-info">
+          <Stack direction= "row" justifyContent="space-between">
             <h4 className ="item-info">Godzilla Milkshake</h4>
             <h4 className='price'>$6.99</h4>
+            </Stack>
             </header>
           <Divider/>
           <p className ="item-text"><small>ombucha chillwave 
@@ -73,8 +80,10 @@ const Menu = () => {
         </div>
         <div>
           <header className="item-info">
+          <Stack direction= "row" justifyContent="space-between">
             <h4 className ="item-info">Country Delight</h4>
             <h4 className='price'>$20.99</h4>
+            </Stack>
             </header>
           <Divider/>
           <p className ="item-text"><small>Shabby chic keffiyeh 
@@ -90,8 +99,10 @@ const Menu = () => {
         </div>
         <div>
           <header className="item-info">
+          <Stack direction= "row" justifyContent="space-between">
             <h4 className ="item-info">Egg Attack</h4>
             <h4 className='price'>$22.99</h4>
+            </Stack>
             </header>
           <Divider/>
           <p className ="item-text"><small>franzen vegan
@@ -107,8 +118,10 @@ const Menu = () => {
         </div>
         <div>
           <header className="item-info">
+          <Stack direction= "row" justifyContent="space-between">
             <h4 className ="item-info">Oreo Dream</h4>
             <h4 className='price'>$18.99</h4>
+            </Stack>
             </header>
           <Divider/>
           <p className ="item-text"><small>Portland 
@@ -124,8 +137,10 @@ const Menu = () => {
         </div>
         <div>
           <header className="item-info">
+          <Stack direction= "row" justifyContent="space-between">
             <h4 className ="item-info">Bacon Overflow</h4>
             <h4 className='price'>$8.99</h4>
+            </Stack>
             </header>
           <Divider/>
           <p className ="item-text"><small>carry jianbing 
@@ -142,8 +157,10 @@ const Menu = () => {
         </div>
         <div>
           <header className="item-info">
+          <Stack direction= "row" justifyContent="space-between">
             <h4 className ="item-info">American Classic</h4>
             <h4 className='price'>$12.99</h4>
+            </Stack>
             </header>
           <Divider/>
           <p className ="item-text"><small>on it tumblr kickstarter 
@@ -159,8 +176,10 @@ const Menu = () => {
         </div>
         <div>
           <header className="item-info">
+          <Stack direction= "row" justifyContent="space-between">
             <h4 className ="item-info">Steak & Greens</h4>
             <h4 className='price'>$16.99</h4>
+            </Stack>
             </header>
           <Divider/>
           <p className ="item-text"><small>on it tumblr kickstarter 
@@ -176,8 +195,10 @@ const Menu = () => {
         </div>
         <div>
           <header className="item-info">
+          <Stack direction= "row" justifyContent="space-between">
             <h4 className ="item-info">Quarantine Buddy</h4>
             <h4 className='price'>$7.99</h4>
+            </Stack>
             </header>
           <Divider />
           <p className ="item-text"><small>Pellentesque nec 
