@@ -22,7 +22,7 @@ export default function MainHeader() {
       <Button variant="text">Breakfast</Button>
       <Button variant="text">Lunch</Button>
       <Button variant="text">Dinner</Button>
-      <Button variant="text"><Link to = "/SignIn">Log In</Link></Button>  
+      <Button variant="text"><Link to = "/">Log In</Link></Button>  
       </div>
       </>
     );
