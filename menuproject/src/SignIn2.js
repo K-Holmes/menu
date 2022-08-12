@@ -50,7 +50,7 @@ import './index.css';
              <Form>
                <div className="form-group">
                 <div className = "headerForm">
-               <Avatar sx={{ m: 1, bgcolor: 'secondary.main' }}>
+               <Avatar sx={{ m: 1, bgcolor: '#c59d5f' }}>
             <PersonIcon />
           </Avatar>
           <Typography component="h1" variant="h5">
@@ -84,7 +84,7 @@ import './index.css';
                 <Button variant= "contained" type="submit" className="btn btn-primary btn-space">
                   {/* figure out how to move to menu page upon valid log in */}
                    Log In
-                 </Button>
+                 </Button> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
                  <Button
                    variant="contained"
                    type="button"

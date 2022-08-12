@@ -21,8 +21,8 @@ export default function MainHeader() {
       <Button variant="text">All</Button>
       <Button variant="text">Breakfast</Button>
       <Button variant="text">Lunch</Button>
-      <Button variant="text">Dinner</Button>
-      <Button variant="text"><Link to = "/">Log In</Link></Button>  
+      <Button variant="text">Shakes</Button>
+      <Button className="btn btn-primary btn-color" variant="text"><Link to = "/">Log In</Link></Button>
       </div>
       </>
     );
